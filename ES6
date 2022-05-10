@@ -1,0 +1,16 @@
+- [举例说明setImmediate有什么作用？]()
+- [举例说明setImmediate有什么作用？]()
+- [请分析如下promise执行的结果并解释原因[代码]]()
+```javascript
+console.log(1);
+const promise = new Promise((resolve, reject) => {
+  console.log(2)
+  resolve()
+  console.log(3)
+})
+promise.then(() => {
+  console.log(4)
+})
+console.log(5)
+```
+- [es6对函数做了哪些优化？](https://github.com/haizlin/fe-interview/issues/1309)
